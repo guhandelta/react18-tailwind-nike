@@ -1,10 +1,11 @@
 import { useState } from 'react'
 
-import { PopularProducts, SuperQuality, Services, Special, Customer, Subscribe, Footer } from './sections'
+import { Hero, PopularProducts, SuperQuality, Services, SpecialOffers, CustomerReviews, Subscribe, Footer } from './sections'
+import Nav from './components/Nav';
 
 const App = () => (
   <main className="relative">
-    Nav
+    <Nav />
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
@@ -18,10 +19,10 @@ const App = () => (
       <Services />
     </section>
     <section className="padding">
-      <Special Offers />
+      <SpecialOffers />
     </section>
     <section className="padding bg-pale-blue">
-      <Customer Reviews />
+      <CustomerReviews />
     </section>
     <section className="padding-x sm:py-32 py-16 w-full">
       <Subscribe />
