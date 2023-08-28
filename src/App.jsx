@@ -1,6 +1,4 @@
-import { useState } from 'react'
-
-import { Hero, PopularProducts, SuperQuality, Services, SpecialOffers, CustomerReviews, Subscribe, Footer } from './sections'
+import { Hero, PopularProducts, SuperQuality, Services, SpecialOffer, CustomerReviews, Subscribe, Footer } from './sections'
 import Nav from './components/Nav';
 
 const App = () => (
@@ -19,7 +17,7 @@ const App = () => (
       <Services />
     </section>
     <section className="padding">
-      <SpecialOffers />
+      <SpecialOffer />
     </section>
     <section className="padding bg-pale-blue">
       <CustomerReviews />
